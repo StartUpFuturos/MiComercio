@@ -1,0 +1,41 @@
+<div class="contaner">
+<div class="col-md-3"></div>
+	<div name="formLogin" class="col-md-6">
+		<div class="col-md-12 input-group">
+			<input name="userName" type="text" class="form-control" aria-describedby="basic-addon1" placeholder="Nombre de usuario"  ng-pattern="/^[0-9]*$/"  ng-maxlength="20"
+			>
+			<span class="text-danger" ng-show="formLogin.userName.$error.required">
+				<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only">Por favor ingrese Nombre.</span>
+				Ingrese Nombre.
+			</span>
+			<span class="text-danger" >
+				<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only">Por favor ingrese Nombre.</span>
+				Nombre invalido.
+			</span>
+		</div>
+		<div class="clearfix"></div>
+	</br>
+				<div class="col-md-12 input-group"
+				>
+					<input name="password" type="password" class="form-control" aria-describedby="basic-addon1" placeholder="Password" required ng-pattern="/^[0-9]*$/" 
+					>
+					
+					<span class="text-danger" >
+						<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+						<span class="sr-only">Por favor ingrese DNI.</span>
+						Nombre invalido.
+					</span>
+				</div>
+			<div class="clearfix"></div>
+			</br>
+			</br>
+			<div class="button-section">
+				<a  class="btn btn-lg btn-default"  > Ingresar</a>
+				<button  class="btn btn-lg btn-default" > Registrarse<i class="fa fa-arrow-right"></i></button>
+			</div>
+			<div class="clearfix"></div>
+	</div>
+	<div class="col-md-3"></div>
+</div>
