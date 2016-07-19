@@ -38,6 +38,17 @@ var app=angular.module('app', ['ui.router', 'ngStorage', 'ui.bootstrap', 'ngTouc
 	.state('app.reporte',{
 		url:'/reporte',
 		templateUrl:'views/reporte.html',
+	})
+		.state('app.registro',{
+		url:'/registro',
+		templateUrl:'views/registro.html',
+		controller:'registroController'
+	})
+
+	.state('app.MiEstado',{
+		url:'/MiRuta',
+		templateUrl:'views/MiVista.html',
+		controller:'NombreDeMiController'
 	});
 	
 
